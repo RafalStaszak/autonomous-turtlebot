@@ -1,7 +1,7 @@
 # autonomous-turtlebot
 Implementation of collision avoidance algorithm using ROS.
 
-##How to start
+## How to start
 
 In order to run this application you must follow these steps:
 '''
