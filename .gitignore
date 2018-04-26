@@ -1,4 +1,2 @@
-/robot_ws/build
-/robot_ws/devel
-/robot_ws/src/.idea
-/robot_ws/src/cmake-build-debug
+/cmake-build-debug
+/CMake*
