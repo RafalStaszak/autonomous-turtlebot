@@ -1,7 +1,9 @@
 # autonomous-turtlebot
-Implementation of collision avoidance algorithm using ROS.
+This project contains a base for simulating the workspace and workflow of turtlebot mobile platform for navigating tasks.
+The simulated robot is equipped with Hokuyo laser scanner which can be fully customized. The robot uses Hector SLAM for building 2D representation of an environment. The robot can be controlled either manually or automatically using standard move_base planner.
 
-![Contribution guidelines for this project](images/rviz.png)
+![Screenshot](images/rviz.png)
+![Screenshot](images/gazebo.png)
 
 ## How to start
 
@@ -12,10 +14,8 @@ In order to run this application you must follow these steps:
 * Run **roslaunch turtlebot_gazebo turtlebot_world.launch**
 
 If you want to get an occupancy map built by Hector Slam you should do the following:
-* Run **apt-get install ros-kinetic-hector-slam** command
-* Run **apt-get install ros-kinetic-laser-scan-matcher** command
+* Run **apt-get install ros-kinetic-hector-slam** 
 * Run **roslaunch turtlebot_gazebo scanmatcher.launch**
 * Run **roslaunch turtlebot_gazebo hector_mapping.launch**
-* Run **roslaunch turtlebot_rviz_launchers view_robot.launch**
 
 
