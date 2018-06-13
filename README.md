@@ -1,7 +1,7 @@
 # autonomous-turtlebot
 Implementation of collision avoidance algorithm using ROS.
 
-[Contribution guidelines for this project](images/rviz.png)
+![Contribution guidelines for this project](images/rviz.png)
 
 ## How to start
 
